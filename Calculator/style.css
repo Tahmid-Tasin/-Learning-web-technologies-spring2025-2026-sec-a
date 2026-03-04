@@ -1,10 +1,21 @@
 #output{
     background-color: lightskyblue;
+    position: absolute;
     width: 350px;
     height: 50px;
-    margin-top: 50px;
-    margin-left: 90px;
+    top: 20px;
+    margin-left: 25px;
 
+}
+
+#calcbody{
+    background-color: yellow;
+    border: black 2px solid;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    margin-top: 200px;
+    left: 500px;
 }
 
 #seven{
@@ -12,16 +23,16 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 115px;
+    margin-top: 80px;
+    margin-left: 30px;
 }
 #eight{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 160px;
+    margin-top: 80px;
+    margin-left: 75px;
 }
 
 #nine{
@@ -29,32 +40,32 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 205px;
+    margin-top: 80px;
+    margin-left: 120px;
 }
 #five{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 160px;
+    margin-top: 110px;
+    margin-left: 75px;
 }
 #four{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 115px;
+    margin-top: 110px;
+    margin-left: 30px;
 }
 #six{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 205px;
+    margin-top: 110px;
+    margin-left: 120px;
 }
 
 #three{
@@ -62,24 +73,24 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 250px;
+    margin-top: 140px;
+    margin-left: 165px;
 }
 #two{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 205px;
+    margin-top: 140px;
+    margin-left: 120px;
 }
 #one{
     background-color: aquamarine;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 160px;
+    margin-top: 140px;
+    margin-left: 75px;
 }
 
 #zero{
@@ -87,8 +98,8 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 115px;
+    margin-top: 140px;
+    margin-left: 30px;
     
 }
 
@@ -97,24 +108,24 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 295px;
+    margin-top: 80px;
+    margin-left: 210px;
 }
 #subtraction{
     background-color: coral;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 250px;
+    margin-top: 80px;
+    margin-left: 165px;
 }
 #division{
     background-color: coral;
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 250px;
+    margin-top: 110px;
+    margin-left: 165px;
 }
 
 #multiplication{
@@ -122,31 +133,31 @@
     width: 40px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 295px;
+    margin-top: 110px;
+    margin-left: 210px;
 }
 #equal{
     background-color: coral;
-    width: 40px;
+    width: 100px;
     height: 40px;
     position:absolute;
-    margin-top: 10px;
-    margin-left: 295px;
+    margin-top: 140px;
+    margin-left: 265px;
 }
 
 #clear{
     background-color: cornsilk;
-    width: 80px;
+    width: 100px;
     height: 40px;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 340px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 265px;
 }
 #ac{
     background-color: cornsilk;
-    width: 80px;
+    width: 100px;
     height: 40px;
-    position: relative;
-    margin-top: 10px;
-    margin-left: 340px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 265px;
 }
