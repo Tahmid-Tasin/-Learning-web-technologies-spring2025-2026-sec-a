@@ -1,0 +1,184 @@
+*{
+    background-color: lightgoldenrodyellow;
+    padding: 0;
+    margin: 0;
+}
+
+#pl1t{
+    position: relative;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    top: 30px;
+    left: 40px;
+
+}
+
+.animate1{
+    animation: ani1 1s forwards;
+}
+
+.animate2{
+    animation: ani2 1s forwards;
+}
+
+
+@keyframes ani1 {
+
+
+   100%{
+    font-size: 50px;
+    color: red;
+   }
+}
+@keyframes ani2 {
+
+   100%{
+    font-size: 50px;
+    color: blue;
+   }
+}
+
+#pl2t{
+    position: absolute;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    font-size: 30px;
+    top: 15px;
+    left: 1200px;
+}
+
+
+.gamefield1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 200px;
+    left: 580px;
+}
+
+.gamefield2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 200px;
+    left: 685px;
+}
+
+.gamefield3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 200px;
+    left: 789px;
+}
+
+.gamefield4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 305px;
+    left: 789px;
+}
+
+.gamefield5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 305px;
+    left: 685px;
+}
+
+.gamefield6{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 305px;
+    left: 580px;
+}
+
+.gamefield7{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 409px;
+    left: 580px;
+}
+
+.gamefield8{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 409px;
+    left: 685px;
+}
+
+.gamefield9{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+
+    font-size: 60px;
+    border-radius: 10px;
+    top: 409px;
+    left: 789px;
+}
+
+.score1{
+    position: fixed;
+    left: 40px;
+    top: 100px;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.score2{
+    position: fixed;
+    right: 240px;
+    top: 100px;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+

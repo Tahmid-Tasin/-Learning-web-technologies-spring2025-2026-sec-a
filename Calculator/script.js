@@ -51,3 +51,7 @@ btn2.addEventListener("click",function(){
 btn3.addEventListener("click",function(){
     field.value=field.value+'3';
 });
+
+btnac.addEventListener("click", function(){
+    field.value='';
+});
