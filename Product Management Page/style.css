@@ -164,8 +164,9 @@ body{
     top: 60px;
     left: 20px;
     list-style-position: inside;
-    list-style: none;
-    
+    font-family: "Oswald", sans-serif;     
+    white-space: pre;
+    color: #014BAA;
 
 }
 
