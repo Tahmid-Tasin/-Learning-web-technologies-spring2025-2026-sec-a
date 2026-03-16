@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Product Management Page</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Changa+One:ital@0;1&family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="card">
+        <img src="CHEESE.jpg" alt="Product image" id="image">
+        <h4 id="name">Product Name : Cheese</h4>
+        <h4 id="price">Price: 150 Tk</h4>
+        <h4 id="qty">Qty :</h4>
+        <input type="number" id="field" value="0">
+        <button id="btn">Add to cart</button>
+    </div>
+
+    <div class="cart hidden" id="cls">
+        <h4 id="cartName" class="cartname">Cart</h4>
+        <ol class="listclass">
+            <li></li>
+        </ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
