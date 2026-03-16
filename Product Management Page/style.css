@@ -167,6 +167,8 @@ body{
     font-family: "Oswald", sans-serif;     
     white-space: pre;
     color: #014BAA;
+    height: 400px;
+    overflow-y: auto;
 
 }
 

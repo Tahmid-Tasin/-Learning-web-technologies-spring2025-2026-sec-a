@@ -12,7 +12,7 @@ btn.addEventListener('click', ()=>{
     let qty = field.value;
     let total;
     qty = parseInt(qty);
-    if(qty<0)
+    if(qty<1)
     {
         field.value=0;
         alert("Enter logical Quantity");
