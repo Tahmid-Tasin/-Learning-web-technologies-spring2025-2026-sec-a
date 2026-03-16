@@ -24,9 +24,12 @@ btn.addEventListener('click', ()=>{
           let li =  document.createElement('li');
           li.innerHTML = "Cheese\t\tX"+`${qty}`+"\t\t\t"+`${total}`+"Tk";
           document.querySelector('.listclass').appendChild(li);
+          if(total>=1000)
+          {
+            alert("You are eligilbe to use Coupon");
+          }
     }
 
 
-    console.log(field.value);
-    console.log(total);
+
 })

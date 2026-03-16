@@ -169,6 +169,7 @@ body{
     color: #014BAA;
     height: 400px;
     overflow-y: auto;
+    animation: ani5 0.5s forwards;
 
 }
 
